@@ -1,0 +1,38 @@
+.bar
+  display: flex
+
+.dragarea
+  -webkit-app-region: drag
+  flex: 1
+  height: 30px
+
+.controls
+  display: flex
+  justify-content: flex-end
+
+.control
+  background-color: #313136
+  color: #cccccc
+  vertical-align: middle
+  border: none
+  height: 30px
+  width: 46px
+
+  & svg
+    width: 15px
+    height: 15px
+    vertical-align: sub
+
+.close:hover
+  color: white
+  background-color: #c40d0d
+
+.close svg
+  height: 20px
+  width: 20px
+
+.minimize:hover
+  background-color: grey
+
+.restore:hover
+  background-color: grey
